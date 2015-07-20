@@ -1,0 +1,41 @@
+/*Fonts New fonts Avenir*/
+
+@font-face {
+    font-family: 'AvenirBook';
+    src: url('../fonts/avenir/avenir-book.ttf') format('truetype'),
+    url('../fonts/avenir/avenir-book.woff') format('woff'),
+    url('../fonts/avenir/avenir-book.svg#AvenirBook') format('svg'),
+    url('../fonts/avenir/avenir-book.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirRoman';
+    src: url('../fonts/avenir/avenir-roman.ttf') format('truetype'),
+    url('../fonts/avenir/avenir-roman.woff') format('woff'),
+    url('../fonts/avenir/avenir-roman.svg#AvenirRoman') format('svg'),
+    url('../fonts/avenir/avenir-roman.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirMedium';
+    src: url('../fonts/avenir/avenir-medium.ttf') format('truetype'),
+    url('../fonts/avenir/avenir-medium.woff') format('woff'),
+    url('../fonts/avenir/avenir-medium.svg#AvenirMedium') format('svg'),
+    url('../fonts/avenir/avenir-medium.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirHeavy';
+    src: url('../fonts/avenir/avenir-heavy.ttf') format('truetype'),
+    url('../fonts/avenir/avenir-heavy.woff') format('woff'),
+    url('../fonts/avenir/avenir-heavy.svg#AvenirHeavy') format('svg'),
+    url('../fonts/avenir/avenir-heavy.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
