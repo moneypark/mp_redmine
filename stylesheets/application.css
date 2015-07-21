@@ -6,9 +6,9 @@ html, body {
 }
 
 body {
-    font-family: 'AvenirRoman', Helvetica, Arial, sans-serif;
+    font-family: 'AvenirBook', Helvetica, Arial, sans-serif;
     line-height: 1.45em;
-    font-size: 0.775em;
+    font-size: 0.825em;
 }
 
 h1, h2, h3, h4 {
@@ -68,12 +68,11 @@ a, a:link, a:visited {
 }
 
 #main-menu ul li a {
-    font-family: 'AvenirMedium', 'Trebuchet MS', Verdana, sans-serif;
     color: white !important;
 }
 
 #main-menu ul li a.selected {
-    font-family: 'AvenirHeavy', 'Trebuchet MS', Verdana, sans-serif;
+    font-family: 'AvenirMedium', 'Trebuchet MS', Verdana, sans-serif;
     color: #eb9000 !important;
     background-color: white;
 }
@@ -103,4 +102,9 @@ a, a:link, a:visited {
 
 .rdb-menu h2 {
     line-height: 1.4em;
+}
+
+.rdb-card .rdb-priority {
+    height: auto !important;
+    min-height: 12.6em;
 }
