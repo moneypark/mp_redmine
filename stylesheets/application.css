@@ -1,4 +1,6 @@
 @import url(../../../stylesheets/application.css);
+
+/* Generic theme */
 @import url(fonts.css);
 
 html, body {
@@ -103,6 +105,152 @@ a, a:link, a:visited {
     box-shadow:0 20px 10px -10px rgba(0,0,0,0.05) inset
 }
 
+/* Issue detail modeling */
+.subject p {
+    color: #900 !important;
+    font-weight: bold;
+    font-size: 14px !important;
+}
+
+.next-prev-links.contextual {
+    margin-top: -6px;
+    margin-right: -6px;
+    padding: 6px;
+    background-color: white;
+}
+
+.details .subject {
+    margin: -6px -6px 0 -6px;
+    padding: 6px;
+}
+
+.details p.author {
+    margin: 0 -6px 12px -6px;
+    padding: 6px;
+}
+
+/* Issue colors */
+
+    /* Immediate (priority-10) */
+    .details.priority-10 .subject,
+    .details.priority-10 p.author {
+        background-color: #EB9999;
+    }
+    table.list tr.priority-10.even {
+        color: black;
+        background-color: #E06666;
+    }
+    table.list tr.priority-10.odd {
+        color: black;
+        background-color: #EB9999;
+    }
+    table.list tr.priority-10 a {
+        color: black;
+    }
+
+    /* Urgent (priority-1) */
+    .details.priority-1 .subject,
+    .details.priority-1 p.author {
+        background-color: #FFCCCC;
+    }
+    table.list tr.priority-1.even {
+        color: darkred;
+        background-color: #FF9999;
+    }
+    table.list tr.priority-1.odd {
+        color: darkred;
+        background-color: #FFCCCC;
+    }
+    table.list tr.priority-1 a {
+        color: darkred;
+    }
+
+    /* High (priority-5) */
+    .details.priority-5 .subject,
+    .details.priority-5 p.author {
+        background-color: #FFB280;
+    }
+    table.list tr.priority-5.even {
+        color: black;
+        background-color: #FFA366;
+    }
+    table.list tr.priority-5.odd {
+        color: black;
+        background-color: #FFB280;
+    }
+    table.list tr.priority-5 a {
+        color: black;
+    }
+
+    /* Normal (priority-2) */
+    .details.priority-2 .subject,
+    .details.priority-2 p.author {
+        background-color: #CCEBD6;
+    }
+    table.list tr.priority-2.even {
+        color: #333333;
+        background-color: #99D6AD;
+    }
+    table.list tr.priority-2.odd {
+        color: #333333;
+        background-color: #CCEBD6;
+    }
+    table.list tr.priority-2 a {
+        color: #333333;
+    }
+
+    /* Low (priority-3) */
+    .details.priority-3 .subject,
+    .details.priority-3 p.author {
+        background-color: #DEEFF5;
+    }
+    table.list tr.priority-3.even {
+        color: #787878;
+        background-color: #CEE8F0;
+    }
+    table.list tr.priority-3.odd {
+        color: #787878;
+        background-color: #DEEFF5;
+    }
+    table.list tr.priority-3 a {
+        color: #787878;
+    }
+
+    /* For Later (priority-9) */
+    .details.priority-9 .subject,
+    .details.priority-9 p.author {
+        background-color: #F0F8FA;
+    }
+    table.list tr.priority-9.even {
+        color: #888888;
+        background-color: #E6F4F8;
+    }
+    table.list tr.priority-9.odd {
+        color: #888888;
+        background-color: #F0F8FA;
+    }
+    table.list tr.priority-9 a {
+        color: #888888;
+    }
+
+    /* Patch style */
+    .details.tracker-11 .subject,
+    .details.tracker-11 p.author {
+        background-color: #d8cae8;
+    }
+    table.list tr.tracker-11.even {
+        color: #4B1668;
+        background-color: #b8aac8;
+    }
+    table.list tr.tracker-11.odd {
+        color: #4B1668;
+        background-color: #d8cae8;
+    }
+    table.list tr.tracker-11 a {
+        color: #4B1668;
+    }
+
+/* redmine_dashboard styles */
 .rdb-menu h2 {
     line-height: 1.4em;
 }
@@ -111,3 +259,24 @@ a, a:link, a:visited {
     height: auto !important;
     min-height: 12.6em;
 }
+
+    /* Give redmine_dashboard priorities a better color theme for priorities */
+    .rdb-priority.rdb-priority-1 {
+        border-color: darkred;
+    }
+    .rdb-priority.rdb-priority-2 {
+        border-color: red;
+    }
+    .rdb-priority.rdb-priority-3 {
+        border-color: orange;
+    }
+    .rdb-priority.rdb-priority-4 {
+        border-color: green;
+    }
+    .rdb-priority.rdb-priority-5 {
+        border-color: lightslategray;
+    }
+    .rdb-priority.rdb-priority-6 {
+        border-color: lightblue;
+    }
+
